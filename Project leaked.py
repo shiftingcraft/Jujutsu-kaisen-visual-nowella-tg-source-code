@@ -101,7 +101,7 @@ def nowella2variant2(message):
 @bot.message_handler(commands=["q3"])
 def nowella2variant3(message):
     bot.send_message(message.from_user.id, 'Лучшие! Вот например Фушигуру Мэгуми - это человек который тебя спас от проклятого духа')
-    nowella2inf2()
+    nowella2inf2(message)
 
 
 
